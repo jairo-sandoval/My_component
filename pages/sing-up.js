@@ -1,4 +1,6 @@
 import Link from 'next/link';
+import {Button} from 'antd';
+import 'antd/dist/antd.css';
 
 function register() {
     return(
@@ -12,10 +14,11 @@ function register() {
             <input type="text" placeholder="Age"/><br/>
             <label>Email</label>
             <input type="text" placeholder="email"/><br/>
-            <button>submit</button>
+            
             <Link href="/login">
                 <a>login</a>
             </Link>
+            <Button type="dashed">submit</Button>
         </div>
     )
 }

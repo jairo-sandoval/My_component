@@ -1,4 +1,6 @@
 import Link from 'next/link'
+import {Button} from 'antd';
+import 'antd/dist/antd.css';
 
 function Index (){
     return(
@@ -14,10 +16,11 @@ function Index (){
                 <br/>
                 <input type="text" 
                 placeholder= "password"/><br/>
-                <button>log-in</button>
                 <Link href="/sing-up">
                     <a>sing-up</a>
                 </Link>
+                <Button type="dashed">submit</Button>
+
             </div>
     )
 }
