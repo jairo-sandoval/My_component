@@ -20,6 +20,8 @@
   },
   "homepage": "https://github.com/jairo-sandoval/My_component#readme",
   "dependencies": {
+    "antd": "^4.7.3",
+    "bootstrap": "^4.5.3",
     "next": "^9.5.5",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
